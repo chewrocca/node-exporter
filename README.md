@@ -1,5 +1,5 @@
 # node-exporter
-A node-exporter image with a script to add node.id and node.hostname to node-exporter metrics.
+A Prometeheus node-exporter image with a script to add node.id and node.hostname to node-exporter metrics.
 
 
 This will allow node-exporter to expose the hostname of the node that is running a Dockerized version of node-exporter:
